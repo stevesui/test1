@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T16:58:29.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36" etag="k2p7Mj8TnnAaT3-l8zOg" version="13.6.6" type="github"><diagram id="zpSBYh-TakH2NZ2DYpdP" name="Page-1">5VhNc9owEP01zDSHdGwLnHDkK80MNKWlmbRHYS9Gg2x5ZDlAf31XWDb4g4E20Bx6Qnperez3VrsrWmQQbj5JGi8/Cx94y7H8TYsMW45jW907/NHINkPc+04GBJL5xmgPzNgvyFcaNGU+JCVDJQRXLC6Dnogi8FQJo1KKddlsIXh515gGUANmHuV19IX5apmh9x1rjz8CC5b5zrZlnoQ0NzZAsqS+WB9AZNQiAymEykbhZgBck5fzkq17OPK0eDEJkTpnwSboOv3nUeelv31evlg8WXy9v7VJ5uaV8tR8sXlbtc0pQDfINk766yVTMIupp5+sUXDElirkOLNxuGCcDwQXcreOjNyhNcRX6ZstQCrYHH15u6AEYwlECEpu0SRfcG9YNGFk5wKs96KQPGaWB4I4XQNSEwhB4XvPFQ4MXX9CXQNzLsdt+3McBHow7j2MewUqc/iDEjHzkpv8CW5fLKmxj2ET66G35SzyQTqndZiLFC39ybwAqLcKpEa/pArdgMGT7LjZncuI5HQqInXrItlNIhWH5uIiOTWRkpin0ep2RRcreptnjWOkx1J4kCRnUH6E4QuwStplVoswP2TVaWDVvRap9Zwxm06en8YNkf6oVIymo1f9sY6F2YEj30LevFucV5JUdziybPcySrlOWSnnXKVscrUkZZ3O7znzCw6bni6ZyAZEvhkOPU6ThHll6jMn4NeK50muDrjoNFCRYxI4Vey17L6JHrPDVLBdhOWpqFs5NNUMk4hUemBWHVbNiiNCKo46FUeKygBUzdFOreKz3yBgU5n5DwRsVwo+qR6RcwV07cqhvPvHArZrAo517UFoKoWfeiAb8uYTrNHg21NvghmwRRqaCPyloU6I0TyJs3m5+ZjFkkVBX/eXtcVrhhJiOqbhrl3vxXFzL3JqUx9iLrbgZ3Q61lB4K5BJfSGN/F1PHGG/rEdzHUnjdA4yAgXJ8XKQhrynCwb60LmZYWc+oXPgU5EwxUSEJnOhlAgPDHqcBfoBtlnloBdZVRgUdwXrul2r2y2HnkVq9YD8y8Jtd66TTJAOuf2h+fyIb58DP3cAKQyGG8N4NtsezqYgGX4jSAOem57wNrg7vievOO+Vx+xqT1CtH+fmMfuu4qha0a6dx9xa7HyHTb11VhosRUeipFhBfsQioduy0qkzEDXH1kOJQTac55D5Pj92D5VZM1iKn7fdZtwy4W23oZu7a4icv2jmcLr/IyBTbP93Chn9Bg==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-03T17:01:03.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36" etag="Xv01wNOfL0jPieiBOZeX" version="13.6.6" type="github">
+  <diagram id="zpSBYh-TakH2NZ2DYpdP" name="Page-1">
+    <mxGraphModel dx="1097" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+          <mxGeometry x="180" y="150" width="310" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-1" value="&lt;b&gt;KAFKA&lt;br&gt;(topics)&lt;/b&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="250" y="190" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-2" value="splunk-kafka-connect" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-3" value="SPLUNK&lt;br&gt;(Http Event Collector)" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9DE016;" parent="1" vertex="1">
+          <mxGeometry x="620" y="210" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-10" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="300" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-11" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-14" value="Kafka Producer&lt;br&gt;(New RNALite:&lt;br&gt;&amp;nbsp;&lt;b&gt;SpringBoot&lt;br&gt;with Camel App&lt;/b&gt;&lt;br&gt;&amp;nbsp;deployed as Dockers&lt;br&gt;and managed by Kubernetes)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#E6D0DE;" parent="1" vertex="1">
+          <mxGeometry x="69" y="203" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-15" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.226;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xg92BUE5WByUhW0lsfQ8-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="250" as="sourcePoint" />
+            <mxPoint x="170" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xg92BUE5WByUhW0lsfQ8-16" value="Azure Event Hub&lt;br&gt;or&lt;br&gt;&lt;a href=&quot;https://www.confluent.io/blog/confluent-cloud-fully-managed-kafka-on-microsoft-azure/&quot; style=&quot;color: rgb(102 , 0 , 153) ; cursor: pointer ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;h3 class=&quot;LC20lb DKV0Md&quot; style=&quot;font-weight: normal ; margin: 0px 0px 3px ; padding: 4px 0px 0px ; display: inline-block ; line-height: 1.3&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Confluent Cloud - Managed Kafka on Azure&lt;/font&gt;&lt;/h3&gt;&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="430" width="240" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
